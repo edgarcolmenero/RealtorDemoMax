@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edgar Colmenero | Realtor Demo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="#hero">
+        <img src="Logo.png" alt="Edgar Colmenero Logo" class="logo-img" />
+      </a>
+    </div>
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#listings">Listings</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-wrapper">
+      <img src="HouseHome3.png" alt="Outlined Modern House" class="hero-house-img" />
+      <div class="hero-content">
+        <h1>Your Next Move Starts Here</h1>
+        <p>Professional Real Estate Services by Edgar Colmenero</p>
+        <a href="#contact" class="cta-button">Let’s Connect</a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about" class="section">
+    <div class="about-content">
+      <div class="about-text">
+        <h2 class="reveal">About Me</h2>
+        <p class="reveal">
+          I'm a dedicated real estate professional with a sharp eye for detail and a passion for helping clients turn their real estate goals into reality. Whether you're buying your first home, selling a property, or exploring investment opportunities, I bring energy, market insight, and a client-first mindset to every transaction. I believe real estate is more than a deal — it’s a major life moment. With a background in marketing and tech, I use data-driven strategies and creative solutions to ensure every listing stands out and every client feels confident in their decisions. My mission is simple: provide honest guidance, clear communication, and results that move you forward.        </p>
+        <blockquote class="reveal"><em>“Never Stay Satisfied.”</em></blockquote>
+      </div>
+      <div class="about-image">
+        <div class="image-placeholder">
+          <img src="ME.jpg" alt="Edgar Colmenero Profile Photo" class="profile-image" />
+        </div>
+      </div>
+    </div>
+    <div class="cert-grid">
+      <div><a href="https://www.credly.com/badges/db22215e-0f67-45d8-bad5-527d65a43472/public_url" target="_blank"><img src="Trophy.jpg" alt="Google Data Analytics Certificate Image" /><p>REALTOR of the Year</p></a></div>
+      <div><a href="https://www.credly.com/badges/3f5e9150-0913-4def-8e97-849930a6ffe8/public_url" target="_blank"><img src="Trophy.jpg" alt="Google UX Design Certificate Image" /><p>Good Neighbor Award</p></a></div>
+      <div><a href="https://www.credly.com/badges/39bfc6a9-af54-4a52-b2ca-8d7b9560c5ca/public_url" target="_blank"><img src="Trophy.jpg" alt="Google IT Automation with Python Certificate Image" /><p>30 under 30</p></a></div>
+      <div><a href="CERT_LINK_4" target="_blank"><img src="Trophy.jpg" alt="Google Project Management Certificate Image" /><p>Rookie of the Year</p></a></div>
+    </div>
+  </section>
+
+  <!-- Listings Section -->
+  <section class="listings" id="listings">
+    <div class="section-header">Featured Listings</div>
+    <div class="listing-carousel">
+      <!-- Listings will be dynamically inserted here from data.json -->
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="section-header">What I Offer</div>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Buyer Representation</h3>
+        <p>Helping buyers find their dream homes with expert guidance and care.</p>
+      </div>
+      <div class="service-card">
+        <h3>Seller Strategy</h3>
+        <p>Marketing your property effectively to get top dollar and fast results.</p>
+      </div>
+      <div class="service-card">
+        <h3>Market Analysis</h3>
+        <p>Offering valuable insights and comparisons to inform smart decisions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section id="process" class="section">
+    <h2 class="section-header">My Process</h2>
+    <div class="process-container">
+    <div class="process-step">
+      <div class="process-step-number">1</div>
+      <div class="process-step-content">
+        <strong>Step 1: Discovery Call</strong>
+        <p>Initial consultation to understand your goals, needs, and timeline.</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="process-step-number">2</div>
+      <div class="process-step-content">
+        <strong>Step 2: Home Tour or Evaluation</strong>
+        <p>We walk through your home or tour listings to assess the right fit.</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="process-step-number">3</div>
+      <div class="process-step-content">
+        <strong>Step 3: Strategy & Paperwork</strong>
+        <p>We build your offer/sale strategy, prepare key documents, and align expectations.</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="process-step-number">4</div>
+      <div class="process-step-content">
+        <strong>Step 4: Negotiation & Closing</strong>
+        <p>I represent you in negotiations and guide you through closing smoothly.</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="process-step-number">5</div>
+      <div class="process-step-content">
+        <strong>Step 5: Follow-up & Continued Support</strong>
+        <p>After closing, I'm still here to support you with referrals, advice, and next steps.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+<section id="testimonials" class="section">
+  <h2 class="section-header">What Clients Say</h2>
+  <div class="testimonial-bubbles">
+    <div class="testimonial-bubble">
+      “Edgar was an amazing help — professional, knowledgeable, and so patient!”
+      <br><strong>– Samantha L.</strong>
+    </div>
+    <div class="testimonial-bubble">
+      “We sold our house above asking thanks to Edgar’s strategy. Highly recommend!”
+      <br><strong>– Jason & Marissa</strong>
+    </div>
+    <div class="testimonial-bubble">
+      “From the first showing to closing day, Edgar made the process smooth and stress-free.”
+      <br><strong>– Carlos V.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="section">
+  <div class="section-header">FAQ</div>
+  <div class="faq-items">
+    <div class="faq-item">
+      <h4>Do you help first-time buyers?</h4>
+      <p>Absolutely. I walk first-time buyers through every step of the process with full support.</p>
+    </div>
+    <div class="faq-item">
+      <h4>How do you market listings?</h4>
+      <p>Using a mix of social media, MLS, targeted ads, and visual storytelling.</p>
+    </div>
+    <div class="faq-item">
+      <h4>What areas do you serve?</h4>
+      <p>Primarily the DFW metroplex, but I also assist with statewide relocation needs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <div class="section-header">Get In Touch</div>
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Tell me about your goals" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <div id="confirmation-message" class="confirmation-message"></div>
+  <canvas id="confetti-canvas" class="confetti-canvas"></canvas>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Edgar Colmenero | Realtor Demo. Never Stay Satisfied.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js" defer></script>
+</body>
+</html>
